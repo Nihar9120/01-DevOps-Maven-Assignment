@@ -3,30 +3,30 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>My Minimal Page</title>
+  <title>Nihar site</title>
 </head>
 <body>
   <header>
-    <h1>Welcome to my site</h1>
-    <p>A tiny HTML5 starter page.</p>
+    <h1>Welcome to Nihar site</h1>
+    <p>yes, this is ci_cd integartion</p>
   </header>
 
   <main>
     <section>
-      <h2>About</h2>
-      <p>This is a minimal, standards-compliant HTML5 template.</p>
+      <h2>Nihar</h2>
+      <p>This is a maven webapp, using gitrepo+maven+tomcatserver.</p>
     </section>
 
     <section>
       <h2>Links</h2>
       <ul>
-        <li><a href="https://example.com" target="_blank" rel="noopener">Example.com</a></li>
+        <li><a href="https://github.com/Nihar9120/01-DevOps-Maven-Assignment.git" rel=" ">maven git hub</a></li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <small>© 2025 Your Name</small>
+    <small>© 2025 Nihar</small>
   </footer>
 </body>
 </html>
