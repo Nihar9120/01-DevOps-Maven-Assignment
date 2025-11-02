@@ -9,6 +9,7 @@
   <header>
     <h1>Welcome to Nihar site</h1>
     <p>yes, this is ci_cd integartion</p>
+    <p>newly integrate a jenkins pipeline</p>
   </header>
 
   <main>
