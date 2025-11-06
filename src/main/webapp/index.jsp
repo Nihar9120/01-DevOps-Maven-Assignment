@@ -15,7 +15,7 @@
   <main>
     <section>
       <h2>Nihar</h2>
-      <p>This is a maven webapp, using gitrepo+maven+tomcatserver.</p>
+      <p>This is a maven webapp, using gitrepo+maven+tomcatserver_sonarQube.</p>
     </section>
 
     <section>
