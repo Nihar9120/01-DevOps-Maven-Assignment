@@ -23,13 +23,17 @@ pipeline{
             }
         }
         stage('Deploy to Tomcat') {
-    steps {
-        sh '''
-    scp -i D:\Devops\AWS key_pairs and sonar_token -o StrictHostKeyChecking=no target/01-maven-webapp.war ec2-user@3.7.71.179:/home/ec2-user/apache-tomcat-9.0.111/webapps/
-'''
+           steps {
+             sshagent(['ssh_agent_pipeline']) {
+               // some block
 
-    }
-}
+               sh '''
+                   scp -o StrictHostKeyChecking=no target/01-maven-webapp.war ec2-user@3.7.71.179:/home/ec2-user/apache-tomcat-9.0.111/webapps/
+               '''
+            }
+          }
+       }
+
 
     }
 }
